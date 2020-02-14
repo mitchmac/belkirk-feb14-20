@@ -38,3 +38,11 @@ fields:
   type: text
   hidden: true
   default: post
+- name: content_blocks
+  type: blocks
+  label: Content blocks
+  template_types:
+  - hero-section
+  config:
+    min: 
+    max: 
