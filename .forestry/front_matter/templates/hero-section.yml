@@ -1,4 +1,14 @@
 ---
 label: Hero section
 hide_body: true
-fields: []
+fields:
+- name: hero_image
+  type: file
+  config:
+    maxSize: 250
+  label: Hero Image
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Heading
