@@ -1,4 +1,9 @@
 ---
 label: data
 hide_body: true
-fields: []
+fields:
+- name: sometext
+  type: text
+  config:
+    required: false
+  label: sometext
