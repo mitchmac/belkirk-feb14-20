@@ -1,6 +1,9 @@
 {
   "stuff": [
     {
+      "sometext": "meow"
+    },
+    {
       "sometext": "hello"
     }
   ]
