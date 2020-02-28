@@ -8,7 +8,7 @@ sections:
   path: ''
   label: Data
   create: all
-  match: "**/*"
+  match: "**/*.json"
   new_doc_ext: json
   templates:
   - data
