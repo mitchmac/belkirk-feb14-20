@@ -47,7 +47,7 @@ fields:
     min: 
     max: 
 - name: sometext
-  type: text
+  type: file
   config:
-    required: false
+    maxSize: 250
   label: sometext
