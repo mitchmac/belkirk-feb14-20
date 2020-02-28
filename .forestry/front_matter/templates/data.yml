@@ -2,10 +2,18 @@
 label: data
 hide_body: true
 fields:
-- name: sometext
-  type: file
+- name: stuff
+  type: field_group_list
+  fields:
+  - name: sometext
+    type: text
+    config:
+      required: false
+    label: sometext
   config:
-    maxSize: 250
-  label: sometext
+    min: 
+    max: 
+    labelField: 
+  label: stuff
 pages:
 - test.json
