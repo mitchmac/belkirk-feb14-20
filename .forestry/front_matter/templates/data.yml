@@ -16,4 +16,5 @@ fields:
     labelField: 
   label: stuff
 pages:
+- file.json
 - test.json
