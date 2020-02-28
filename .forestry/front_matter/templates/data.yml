@@ -6,9 +6,9 @@ fields:
   type: field_group_list
   fields:
   - name: sometext
-    type: text
+    type: file
     config:
-      required: false
+      maxSize: 250
     label: sometext
   config:
     min: 
