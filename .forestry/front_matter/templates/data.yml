@@ -3,9 +3,9 @@ label: data
 hide_body: true
 fields:
 - name: sometext
-  type: text
+  type: file
   config:
-    required: false
+    maxSize: 250
   label: sometext
 pages:
 - test.json
