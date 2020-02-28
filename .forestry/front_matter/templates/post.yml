@@ -46,3 +46,8 @@ fields:
   config:
     min: 
     max: 
+- name: sometext
+  type: text
+  config:
+    required: false
+  label: sometext
