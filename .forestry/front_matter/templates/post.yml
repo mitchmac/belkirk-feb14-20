@@ -7,7 +7,7 @@ fields:
   type: text
   hidden: false
   default: ''
-  description: "[Link](https://www.forestry.io)"
+  description: <a href="yahoo.com" title="" target="_blank">Link</a>
 - type: text
   label: Sub Heading
   name: sub_heading
