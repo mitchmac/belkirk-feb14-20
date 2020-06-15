@@ -39,16 +39,3 @@ fields:
   type: text
   hidden: true
   default: post
-- name: content_blocks
-  type: blocks
-  label: Content blocks
-  template_types:
-  - hero-section
-  config:
-    min: 
-    max: 
-- name: sometext
-  type: file
-  config:
-    maxSize: 250
-  label: sometext
